@@ -14,6 +14,7 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'fonts')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code', 'fonts')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
