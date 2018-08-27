@@ -9,15 +9,18 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'css')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'js')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'js')
+
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'fonts')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code', 'fonts')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += %w(*.css *.png *.gif *.jpg *.*)
+Rails.application.config.assets.precompile += %w(*.css *.png *.gif *.jpg *.* *.js)

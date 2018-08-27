@@ -9,8 +9,16 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//= require vendor
+//
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery-1.11.1.min
+//= require bootstrap.min
+//= require jquery.backstretch.min
+//= require wow.min
+//= require retina-1.1.0.min
+//= require waypoints.min
+//= require jquery.magnific-popup.min
+//= require scripts
