@@ -19,6 +19,7 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font
 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
+Rails.application.config.assets.paths << Rails.root.join('ultimate-flat-social-icons', 'ultm-css')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
